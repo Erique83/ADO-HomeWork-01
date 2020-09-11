@@ -1,0 +1,14 @@
+﻿<Window x:Class="HomeWork_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="245.327" Width="800">
+    <Grid>
+        <Button x:Name="button1" Content="Выберите директорию" HorizontalAlignment="Center" Margin="52,32,582,0" VerticalAlignment="Top" Width="158" Click="Button1_Click" Height="33"/>
+        <Button x:Name="button2" Content="Выгрузка прилагательных в БД" HorizontalAlignment="Left" Margin="277,32,0,0" VerticalAlignment="Top" Width="181" Height="33" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Выгрузка глаголов в БД" HorizontalAlignment="Left" Margin="470,32,0,0" VerticalAlignment="Top" Width="172" Height="33" Click="button3_Click"/>
+    </Grid>
+</Window>
